@@ -62,31 +62,31 @@
     <h1>REGISTRATION PAGE</h1>
 
     <div class="container">
-        <form>
+        <form method="POST" action="patasxan.php">
 
             <label for="fname">First Name</label>
-            <input type="text" id="fname" placeholder="Enter first name">
+            <input type="text" name="name" id="fname" placeholder="Enter first name">
 
             <label for="lname">Last Name</label>
-            <input type="text" id="lname" placeholder="Enter last name">
+            <input type="text" id="lname" name="second-name" placeholder="Enter last name">
 
             <label for="email">Email</label>
-            <input type="email" id="email" placeholder="example@mail.com">
+            <input type="email" id="email" name="my-email" placeholder="example@mail.com">
 
             <label for="password">Password</label>
-            <input type="password" id="password" placeholder="Enter password">
+            <input type="password" id="password" name="password" placeholder="Enter password">
 
             <label for="confirm">Confirm Password</label>
-            <input type="password" id="confirm" placeholder="Confirm password">
+            <input type="password" id="confirm"  name="confirmed" placeholder="Confirm password">
 
             <label for="username">Username</label>
-            <input type="text" id="username" placeholder="Enter username">
+            <input type="text" id="username" name=user-name placeholder="Enter username">
 
             <label for="phone">Phone Number</label>
-            <input type="tel" id="phone" placeholder="+374...">
+            <input type="tel" id="phone" name="phone" placeholder="+374...">
 
             <label for="dob">Date of Birth</label>
-            <input type="date" id="dob">
+            <input type="date" name="date" id="dob">
 
             <label>Gender</label>
             <div style="background:#FCDCA9;">
